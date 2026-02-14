@@ -34,7 +34,8 @@ function showResults() {
         resultsDiv.innerHTML = `
             <div class="welcome-message">
                 <i class="fas fa-compass"></i>
-                <p>Odaberi mjesto polaska i odredište</p>
+                <p>Odaberi mjesto polaska i odredište...<br/>
+				Aplikacija radi samo uz pristup internetu!</p>
             </div>`;
         return;
     }
